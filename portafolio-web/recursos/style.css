@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3.5rem;
+}
 .pres-container {
     position: relative;
     top: 60px;

@@ -1,0 +1,151 @@
+main {
+    position: relative;
+    top: 60px;
+}
+#formulario {
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+}
+.form-title {
+    display: block;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-family: 'visuelt bold';
+    font-size: 52px;
+    text-transform: uppercase;
+    letter-spacing: 18px;
+    color: #363636;
+    width: 100%;
+    text-align: center;
+}
+.form-title p {
+    width: 450px;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2;
+    color: #363636;
+    margin-top: 10px;
+    text-align: center;
+}
+.form-card {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+form {
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4), 0px 0px 3px 3px rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+/*---Secciones dentro del form*/
+textarea {
+    resize: none;
+}
+.form-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.form-section label {
+    width: 100%;
+    text-align: center;
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 8px 0px;
+}
+.form-section input {
+    text-align: center;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    outline: none;
+    width: 240px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ECF0F3;
+    border: 1px solid rgba(54, 54, 54, 0.5);
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.0), inset 0px 0px 0px 0px rgba(255, 255, 255, 0.0), 0px 0px 0px 0px rgba(0, 0, 0, 0.0), 0px 0px 0px 0px rgba(255, 255, 255, 0.0);
+}
+.form-section textarea{
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ECF0F3;
+    border: 1px solid rgba(54, 54, 54, 0.5);
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.0), inset 0px 0px 0px 0px rgba(255, 255, 255, 0.0), 0px 0px 0px 0px rgba(0, 0, 0, 0.0), 0px 0px 0px 0px rgba(255, 255, 255, 0.0);
+}
+.form-section input:hover {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.0), inset 0px 0px 0px 0px rgba(255, 255, 255, 0.0), 2px 2px 3px 1px rgba(0, 0, 0, 0.4), 0px 0px 3px 2.5px rgba(255, 255, 255, 1);
+    border: none;
+    transition: all .25s ease-in-out;
+}
+.form-section input:focus {
+    box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.2), inset -2px -2px 2px 1px rgba(255, 255, 255, 1);
+    font-size: 13px;
+    transition: all .1s ease-in-out;
+    border: none;
+}
+
+.form-section textarea:hover {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.0), inset 0px 0px 0px 0px rgba(255, 255, 255, 0.0), 2px 2px 3px 1px rgba(0, 0, 0, 0.4), 0px 0px 3px 2.5px rgba(255, 255, 255, 1);
+    border: none;
+    transition: all .25s ease-in-out;
+}
+.form-section textarea:focus {
+    box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.2), inset -2px -2px 2px 1px rgba(255, 255, 255, 1);
+    font-size: 13px;
+    transition: all .1s ease-in-out;
+    border: none;
+}
+
+/*---BOTON ENVIAR---*/
+#boton-enviar {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #363636;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(54, 54, 54, 0.5);
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.0), inset 0px 0px 0px 0px rgba(255, 255, 255, 0.0), 0px 0px 0px 0px rgba(0, 0, 0, 0.0), 0px 0px 0px 0px rgba(255, 255, 255, 0.0);
+}
+#boton-enviar:hover {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.0), inset 0px 0px 0px 0px rgba(255, 255, 255, 0.0), 2px 2px 3px 1px rgba(0, 0, 0, 0.4), 0px 0px 3px 2.5px rgba(255, 255, 255, 1);
+    border: none;
+    transition: all .25s ease-in-out;
+}
+#boton-enviar:active {
+    box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.2), inset -2px -2px 2px 1px rgba(255, 255, 255, 1);
+    font-size: 13px;
+    transition: all .1s ease-in-out;
+}
